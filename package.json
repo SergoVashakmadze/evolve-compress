@@ -1,0 +1,12 @@
+{
+  "name": "evolve-compress",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny lossless compressor, scored by the compressed size of a fixed corpus. A fixture for iomarkets.dev's Evolve Arena.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test",
+    "bench": "node bench.js"
+  }
+}
